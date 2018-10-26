@@ -1,13 +1,18 @@
 <template>
-  <div></div>
+  <v-layout row wrap>
+    <funds></funds>
+    <suggestions></suggestions>
+  </v-layout>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import funds from '../components/funds'
+  import suggestions from '../components/suggestions'
 
   export default {
     components: {
-      HelloWorld
+      funds,
+      suggestions
     }
   }
 </script>

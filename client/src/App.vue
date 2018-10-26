@@ -29,10 +29,9 @@
       <v-toolbar-title>Investment Assistant</v-toolbar-title>
     </v-toolbar>
     <v-content>
-      <v-container fluid fill-height>
+      <v-container fluid>
         <v-layout
           justify-center
-          align-center
         >
           <router-view></router-view>
         </v-layout>
@@ -44,12 +43,9 @@
   </v-app>
 </template>
 <script>
-import HelloWorld from './components/HelloWorld'
-
 export default {
   name: 'App',
   components: {
-    HelloWorld
   },
   data: () => ({
     drawer: null

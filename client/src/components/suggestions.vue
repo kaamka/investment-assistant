@@ -6,9 +6,23 @@
         v-for="(item,i) in 5"
         :key="i"
       >
-        <div slot="header">Item</div>
+        <div slot="header">
+          <v-layout>
+          <v-flex xs3 sm2 md1>
+            <v-avatar
+              slot="activator"
+              size="36px"
+            >
+              <v-icon>account_balance_wallet</v-icon>
+            </v-avatar>
+          </v-flex>
+          <v-flex xs3 sm2 md1><span class="deposit-pct">{{5-i}}%</span></v-flex>
+          <v-flex xs6 sm10 md11><span class="deposit-text">Lokata korzystna</span></v-flex>
+
+          </v-layout>
+        </div>
         <v-card>
-          <v-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</v-card-text>
+          <v-card-text>Opis lokaty.</v-card-text>
         </v-card>
       </v-expansion-panel-content>
     </v-expansion-panel>
@@ -24,5 +38,14 @@
 <style>
 v-card-title {
   font-size: 3em;
+}
+
+.deposit-pct {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.deposit-text {
+  line-height: 36px;
 }
 </style>

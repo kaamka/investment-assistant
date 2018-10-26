@@ -1,5 +1,6 @@
 <template>
   <v-flex xs12 sm6 offset-sm3>
+    <v-subheader>Sugerowane lokaty</v-subheader>
     <v-expansion-panel>
       <v-expansion-panel-content
         v-for="(item,i) in 5"

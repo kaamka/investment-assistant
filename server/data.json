@@ -2,7 +2,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata Happy ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 4.0,
         "link_with_offer": "http://www.ideabank.pl/klienci-indywidualni-lokata-happy",
@@ -12,7 +12,7 @@
     {
         "bank_name": "Nest Bank",
         "deposit_name": "Nest Lokata Witaj ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 4.0,
         "link_with_offer": "https://nestbank.pl/indywidualny/oszczednosci/nest-lokata-witaj.html",
@@ -22,7 +22,7 @@
     {
         "bank_name": "Nest Bank",
         "deposit_name": "Nest Lokata Witaj ",
-        "duration": "6 mies.",
+        "duration": 6,
         "for_new": true,
         "interest": 4.0,
         "link_with_offer": "https://nestbank.pl/indywidualny/oszczednosci/nest-lokata-witaj.html",
@@ -32,7 +32,7 @@
     {
         "bank_name": "Plus Bank",
         "deposit_name": "Lokata na start ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 4.0,
         "link_with_offer": "https://plusbank.pl/oferta-dla-ciebie/lokaty/lokata-na-start",
@@ -42,7 +42,7 @@
     {
         "bank_name": "BGŻOptima",
         "deposit_name": "Lokata Bezkarna ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 3.5,
         "link_with_offer": "https://www.bgzoptima.pl/lokaty/lokata_bezkarna/",
@@ -52,7 +52,7 @@
     {
         "bank_name": "mBank",
         "deposit_name": "mLokata na wejście ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 3.5,
         "link_with_offer": "http://www.mbank.pl/indywidualny/oszczednosci/mlokata-na-wejscie/index.html",
@@ -62,7 +62,7 @@
     {
         "bank_name": "Eurobank",
         "deposit_name": "Lokata na dobry początek ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 3.0,
         "link_with_offer": "https://www.eurobank.pl/produkty,oszczednosci,lokata-na-dobry-poczatek,262,10.html",
@@ -72,7 +72,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata Happy Pro ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": true,
         "interest": 3.0,
         "link_with_offer": "https://www.ideabank.pl/klienci-indywidualni-lokata-happy-pro",
@@ -82,7 +82,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Welcome ",
-        "duration": "40 dni",
+        "duration": 2,
         "for_new": true,
         "interest": 3.0,
         "link_with_offer": "https://lp.lionsbank.pl/lp/lokaty/lokata-welcome-3-5-proc",
@@ -92,7 +92,7 @@
     {
         "bank_name": "Bank Millennium",
         "deposit_name": "Lokata Urodzinowa ",
-        "duration": "1 mies.",
+        "duration": 1,
         "for_new": false,
         "interest": 3.0,
         "link_with_offer": "https://www.bankmillennium.pl/urodziny",
@@ -102,7 +102,7 @@
     {
         "bank_name": "Getin Bank",
         "deposit_name": "Lokata Mobilna ",
-        "duration": "2 mies.",
+        "duration": 1,
         "for_new": false,
         "interest": 3.0,
         "link_with_offer": "https://www.getinbank.pl/klienci-indywidualni/oferta/lokaty-bankowe/lokata-mobilna",
@@ -112,7 +112,7 @@
     {
         "bank_name": "Eurobank",
         "deposit_name": "Lokata na start mobilna ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": false,
         "interest": 3.0,
         "link_with_offer": "https://www.eurobank.pl/produkty,oszczednosci,lokata-na-start-mobilna,263,10.html",
@@ -122,7 +122,7 @@
     {
         "bank_name": "Eurobank",
         "deposit_name": "Lokata na start internetowa ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": false,
         "interest": 3.0,
         "link_with_offer": "https://www.eurobank.pl/produkty,oszczednosci,lokata-na-start-internetowa,264,10.html",
@@ -132,7 +132,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Welcome ",
-        "duration": "40 dni",
+        "duration": 3,
         "for_new": true,
         "interest": 2.75,
         "link_with_offer": "https://lp.lionsbank.pl/lp/lokaty/lokata-welcome-3-5-proc",
@@ -142,7 +142,7 @@
     {
         "bank_name": "Toyota Bank",
         "deposit_name": "Lokata Plus ",
-        "duration": "36 mies.",
+        "duration": 36,
         "for_new": false,
         "interest": 2.75,
         "link_with_offer": "https://www.toyotabank.pl/dla-ciebie/oszczedzanie/lokaty/lokata-plus/szczegoly/",
@@ -152,7 +152,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Miracle ",
-        "duration": "36 mies.",
+        "duration": 36,
         "for_new": false,
         "interest": 2.7,
         "link_with_offer": "https://lp.lionsbank.pl/lp/lokaty/1509-miracle/",
@@ -162,7 +162,7 @@
     {
         "bank_name": "Toyota Bank",
         "deposit_name": "Lokata standardowa ",
-        "duration": "36 mies.",
+        "duration": 36,
         "for_new": false,
         "interest": 2.7,
         "link_with_offer": "https://www.toyotabank.pl/dla-ciebie/oszczedzanie/lokaty/lokata-standardowa/szczegoly/",
@@ -172,7 +172,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata Stabilna ",
-        "duration": "36 mies.",
+        "duration": 36,
         "for_new": false,
         "interest": 2.7,
         "link_with_offer": "https://www.ideabank.pl/klienci-indywidualni-lokata-stabilna",
@@ -182,7 +182,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Fortune ",
-        "duration": "6 mies.",
+        "duration": 6,
         "for_new": false,
         "interest": 2.65,
         "link_with_offer": "https://lp.lionsbank.pl/lokaty/1509-fortune/",
@@ -192,7 +192,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Miracle ",
-        "duration": "24 mies.",
+        "duration": 24,
         "for_new": false,
         "interest": 2.65,
         "link_with_offer": "https://lp.lionsbank.pl/lp/lokaty/1509-miracle/",
@@ -202,7 +202,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata Stabilna ",
-        "duration": "24 mies.",
+        "duration": 24,
         "for_new": false,
         "interest": 2.65,
         "link_with_offer": "https://www.ideabank.pl/klienci-indywidualni-lokata-stabilna",
@@ -212,7 +212,7 @@
     {
         "bank_name": "Toyota Bank",
         "deposit_name": "Lokata Plus ",
-        "duration": "24 mies.",
+        "duration": 24,
         "for_new": false,
         "interest": 2.6,
         "link_with_offer": "https://www.toyotabank.pl/dla-ciebie/oszczedzanie/lokaty/lokata-plus/szczegoly/",
@@ -222,7 +222,7 @@
     {
         "bank_name": "Lion's Bank",
         "deposit_name": "Lokata Fortune ",
-        "duration": "3 mies.",
+        "duration": 3,
         "for_new": false,
         "interest": 2.55,
         "link_with_offer": "https://lp.lionsbank.pl/lokaty/1509-fortune/",
@@ -232,7 +232,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata NR 1 ",
-        "duration": "60 mies.",
+        "duration": 60,
         "for_new": false,
         "interest": 2.55,
         "link_with_offer": "https://www.ideabank.pl/klienci-indywidualni-lokata-nr1",
@@ -242,7 +242,7 @@
     {
         "bank_name": "Toyota Bank",
         "deposit_name": "Lokata standardowa ",
-        "duration": "24 mies.",
+        "duration": 24,
         "for_new": false,
         "interest": 2.55,
         "link_with_offer": "https://www.toyotabank.pl/dla-ciebie/oszczedzanie/lokaty/lokata-standardowa/szczegoly/",
@@ -252,7 +252,7 @@
     {
         "bank_name": "Toyota Bank",
         "deposit_name": "Lokata Sprint ",
-        "duration": "180 dni",
+        "duration": 6,
         "for_new": false,
         "interest": 2.5,
         "link_with_offer": "https://www.toyotabank.pl/dla-ciebie/oszczedzanie/lokaty/lokata-sprint-180-dni/szczegoly/",
@@ -262,7 +262,7 @@
     {
         "bank_name": "Idea Bank",
         "deposit_name": "Lokata NR 1 ",
-        "duration": "48 mies.",
+        "duration": 48,
         "for_new": false,
         "interest": 2.5,
         "link_with_offer": "https://www.ideabank.pl/klienci-indywidualni-lokata-nr1",
@@ -272,7 +272,7 @@
     {
         "bank_name": "Alior Bank",
         "deposit_name": "Lokata dla nowych klientów ",
-        "duration": "186 dni",
+        "duration": 6,
         "for_new": true,
         "interest": 2.5,
         "link_with_offer": "http://lokata.aliorbank.pl/portal/",
@@ -282,7 +282,7 @@
     {
         "bank_name": "Alior Bank",
         "deposit_name": "Lokata dla nowych klientów ",
-        "duration": "90 dni",
+        "duration": 3,
         "for_new": false,
         "interest": 2.5,
         "link_with_offer": "http://lokata.aliorbank.pl/portal/",
@@ -292,7 +292,7 @@
     {
         "bank_name": "Bank Zachodni WBK",
         "deposit_name": "Lokata Mobilna ",
-        "duration": "4 mies.",
+        "duration": 4,
         "for_new": false,
         "interest": 2.5,
         "link_with_offer": "http://www.bzwbk.pl/oszczednosci-i-inwestycje/oszczednosci-i-inwestycje/lokaty-terminowe/lokata-mobilna-w-ramach-bzwbk24-mobile/lokata-mobilna-w-ramach-bzwbk24-mobile.html",

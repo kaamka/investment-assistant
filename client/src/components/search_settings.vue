@@ -9,12 +9,14 @@
               :items="items"
               label="Czas trwania"
             ></v-select>
-            <v-flex xs9>
+            <v-flex xs9 
+                mt-4>
               <v-slider
                 label="Kwota"
                 v-model="slider"
                 :min="min"
                 :max="max"
+                thumb-label="always"
               ></v-slider>
             </v-flex>
             <v-flex xs3>

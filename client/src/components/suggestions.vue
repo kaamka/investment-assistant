@@ -3,7 +3,7 @@
     <v-subheader>Sugerowane lokaty</v-subheader>
     <v-expansion-panel>
       <v-expansion-panel-content
-        v-for="(item,i) in 5"
+        v-for="(item,i) in options"
         :key="i"
       >
         <div slot="header">
@@ -16,8 +16,8 @@
               <v-icon>account_balance_wallet</v-icon>
             </v-avatar>
           </v-flex>
-          <v-flex xs3 sm2 md1><span class="deposit-pct">{{5-i}}%</span></v-flex>
-          <v-flex xs6 sm10 md11><span class="deposit-text">Lokata korzystna</span></v-flex>
+          <v-flex xs3 sm2 md1><span class="deposit-pct">{{item.interest}}</span></v-flex>
+          <v-flex xs6 sm10 md11><span class="deposit-text">{{item.name}}</span></v-flex>
 
           </v-layout>
         </div>
@@ -31,7 +31,30 @@
 
 <script>
   export default {
-    data: () => ({})
+    data: () => ({
+      options: [
+        {
+          name: 'Lokata Witaj',
+          interest: '4%'
+        },
+        {
+          name: 'Lokata na start',
+          interest: '4%',
+        },
+        { 
+          name: 'Lokata Happy',
+          interest: '3%'
+        },
+        {
+          name: 'Lokata mobilna',
+          interest: '3%'
+        },
+        {
+          name: 'Lokata urodzinowa',
+          interest: '2.5%'
+        }
+      ]
+    })
   }
 </script>
 

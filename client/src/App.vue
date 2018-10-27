@@ -40,7 +40,6 @@
   </v-app>
 </template>
 <script>
-import banking from '@/services/banking'
 
 export default {
   name: 'App',

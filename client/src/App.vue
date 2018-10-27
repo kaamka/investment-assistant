@@ -37,12 +37,11 @@
         </v-layout>
       </v-container>
     </v-content>
-    <v-footer color="indigo" app>
-      <span class="app-copy white--text">&copy; 2018</span>
-    </v-footer>
   </v-app>
 </template>
 <script>
+import banking from '@/services/banking'
+
 export default {
   name: 'App',
   components: {
@@ -52,6 +51,12 @@ export default {
   }),
   props: {
     source: String
+  },
+  mounted: function () {
+    // banking.userInfo()
+  },
+  methods: {
+
   }
 }
 </script>

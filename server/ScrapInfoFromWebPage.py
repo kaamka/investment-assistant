@@ -17,6 +17,11 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+import io
+try:
+    to_unicode = unicode
+except NameError:
+    to_unicode = str
 
 def scrap_for_get_all_available_deposits():
     depo_info_array = []
@@ -57,8 +62,12 @@ def scrap_for_get_all_available_deposits():
 
 if __name__ == "__main__":
     deposits_json = json.dumps(scrap_for_get_all_available_deposits())
-    print(deposits_json)
-    #for offer in depo_info_array:
-        #print(offer)
+    # Write JSON file
+    with io.open('data.json', 'w', encoding='utf8') as outfile:
+        str_ = json.dumps(scrap_for_get_all_available_deposits(),
+                          indent=4, sort_keys=True,
+                          separators=(',', ': '), ensure_ascii=False)
+        outfile.write(to_unicode(str_))
+
 
 

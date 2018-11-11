@@ -1,4 +1,4 @@
-# investment-assistant
+# Investment Assistant Client Application
 
 ## Project setup
 ```

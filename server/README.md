@@ -1,16 +1,24 @@
-# Backend
-0. INSTALLATION REQS
-a. Flask
-b. flask_cors
-c. bs4 
+# Investment Assistant Backend
 
-1. CREATE NEW JSON FILE (<- do not do it since we already have it)
-a. scraping the webpage and save results into .json file:
-$ python ScrapInfoFromWeb.py
+## Prerequisites
+To run the application you need the following packages:
+* Flask
+* flask_cors
+* bs4 
 
+## Get deposit data
+You need to acquire the data and store it in a json file. (<- do not do it if you don't need new data, since we already have it)
 
-2. RUN FLASK APP
-a. run app
-$ FLASK_APP=SelectGoodDeposits.py flask run
-b. open app in browser:
-http://127.0.0.1:5000/<funds>/<max_duration>
+To scrape the webpage and save results into .json file:
+```sh
+python ScrapInfoFromWeb.py
+```
+
+## Run flask application
+To run the app, type:
+```sh
+FLASK_APP=SelectGoodDeposits.py flask run
+```
+
+It is available at a url:
+`http://127.0.0.1:5000/<funds>/<max_duration>`

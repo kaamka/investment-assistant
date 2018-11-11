@@ -4,7 +4,7 @@ Application suggesting the best investment options based on client's funds and p
 
 ![App screenshot](images/both.png)
 
-This project was created in 12 hours at a FinTech hackathon. We were provided with existing web API allowing us to acquire customer information from different banks.
+This project was created in 12 hours at a FinTech hackathon. We were provided with existing web API allowing us to acquire customer information from various banks.
 
 ## Getting Started
 
